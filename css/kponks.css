@@ -1,0 +1,125 @@
+/* 
+    ADDITIONAL CSS Konkius
+*/
+
+
+.kponk-card{
+    position:absolute;
+    margin-top:20px;
+    width:70rem; 
+    top:50%;height: 80vh; 
+    left:50%; 
+    transform: translate(-50%, -50%);
+    /* border: none; */
+    
+}
+ .luckyhead{
+    color: #1588FF;
+    font-weight: bold;
+}
+
+.buy-sub{
+    position:absolute;
+    top:50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;  
+
+}
+
+.buy-sub p{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    margin-bottom:10px !important;
+
+}
+.kponk-btn {
+    display: inline;
+    background-color: #F9FAFB; 
+    color: black;
+    border-radius: 35px;
+    border: 2px solid #1588FF;
+    padding: 12px 18px;
+    transition: .5s ease-in-out;
+    width: 200px;
+    margin: 0;
+ 
+} 
+
+.kponk-card-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ECF5FA;
+
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 2px solid #1588FF;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    margin: 40px 0px;
+    transition: .5s ease-in-out;
+
+}
+.kponk-btn-sm {
+    padding: 6px 10px;
+    width: fit-content;
+    font-size: 12px;
+    text-align: center;
+    
+} 
+.kponk-btn:hover {
+    background-color: #1588FF; 
+    color: #fff;
+
+} 
+.kponk-card-btn:hover {
+    background-color: #1588FF; 
+    color: #fff;
+
+} 
+
+
+.buy-sub button{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    perspective: 300px;
+
+}
+.mark{
+   
+    height: 50px;
+    width: 260px;
+    color: #fff;
+    padding: 5px;
+    perspective: 600px;
+    perspective-origin: 4% 50% rotateY(-4deg);
+
+}
+.mblue {
+    background: #1588FF;
+    transform: rotateY(-4deg);
+    -webkit-transform: rotateY(-4deg);
+  
+  }
+
+
+  .mgreen {
+    background: #56E58F;
+    transform: rotateX(-45deg);
+  }
+
+
+
