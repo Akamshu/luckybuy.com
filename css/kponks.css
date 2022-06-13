@@ -39,7 +39,7 @@
     justify-content: center;
     align-items: center;
     color: grey;
-    margin-bottom:10px !important;
+    margin-bottom:30px !important;
 
 }
 .kponk-btn {
@@ -50,8 +50,8 @@
     border: 2px solid #1588FF;
     padding: 12px 18px;
     transition: .5s ease-in-out;
-    width: 200px;
-    margin: 0;
+    width: 65%;
+    margin-top: 20px;
  
 } 
 
@@ -63,7 +63,7 @@
     -ms-transform: translate(-50%, -50%);
     background-color: #ECF5FA;
 
-    color: black;
+    color: #1588FF;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 35px;
@@ -100,23 +100,23 @@
     justify-content: center;
     align-items: center;
     color: grey;
-    perspective: 300px;
 
 }
 .mark{
    
-    height: 50px;
+    height: 100px;
     width: 260px;
     color: #fff;
     padding: 5px;
     perspective: 600px;
     perspective-origin: 4% 50% rotateY(-4deg);
-
 }
+
 .mblue {
     background: #1588FF;
     transform: rotateY(-4deg);
     -webkit-transform: rotateY(-4deg);
+    border: none;
   
   }
 
@@ -124,6 +124,28 @@
   .mgreen {
     background: #56E58F;
     transform: rotateX(-45deg);
+    border: none;
+  }
+
+  .sub{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+  }
+  .sub small{
+      font-size: 12px;
+      line-height: 1px;
+      margin: 5px;
+      padding-bottom: 15px;
+  }
+
+  .sub input[ type='submit' ]{
+      position: relative;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
 
